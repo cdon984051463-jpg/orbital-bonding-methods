@@ -1,0 +1,31 @@
+&CONTROL
+ calculation = 'scf', prefix = 'rc', outdir = './checkpoint', pseudo_dir = './pseudo/',
+ tprnfor = .true., tstress = .false., verbosity = 'high', disk_io = 'nowf',
+  max_seconds = 432000
+/
+&SYSTEM
+ ibrav = 0, nat = 6, ntyp = 3, ecutwfc = 70, ecutrho = 560, nosym = .true.,
+ occupations = 'smearing', smearing = 'gaussian', degauss = 0.01, nspin = 2, nbnd = 48, starting_magnetization(1) = 0.40, starting_magnetization(2) = -0.40,
+/
+&ELECTRONS
+ conv_thr = 1e-14, mixing_beta = 0.3, electron_maxstep = 200,
+ startingpot = 'atomic', startingwfc = 'atomic',
+  diago_full_acc = .true.
+/
+ATOMIC_SPECIES
+Rua 101.07 Ru.pbe-spn-kjpaw_psl.1.0.0.UPF
+Ru  101.07 Ru.pbe-spn-kjpaw_psl.1.0.0.UPF
+O   15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+4.4920000000 0.0000000000 0.0000000000
+0.0000000000 4.4920000000 0.0000000000
+0.0000000000 0.0000000000 3.1060000000
+ATOMIC_POSITIONS angstrom
+Rua 0.0400000000 0.0200000000 0.0300000000
+Ru 2.2460000000 2.2460000000 1.5530000000
+O 1.3736536000 1.3436536000 0.0200000000
+O 3.1183464000 3.1183464000 0.0000000000
+O 3.6196536000 0.8723464000 1.5530000000
+O 0.8723464000 3.6196536000 1.5530000000
+K_POINTS automatic
+2 2 2 0 0 0

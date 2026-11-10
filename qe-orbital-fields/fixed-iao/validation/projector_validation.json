@@ -1,0 +1,110 @@
+{
+  "status": "NATIVE_PROJECTOR_ROUNDTRIP_PASS",
+  "per_k": [
+    {
+      "k": 1,
+      "spin": 1,
+      "native_overlap_error": 6.658807862121803e-16,
+      "serialized_readback_error": 4.815912307682034e-16
+    },
+    {
+      "k": 2,
+      "spin": 1,
+      "native_overlap_error": 4.955604322720665e-16,
+      "serialized_readback_error": 5.136890854450347e-16
+    },
+    {
+      "k": 3,
+      "spin": 1,
+      "native_overlap_error": 4.528159957089239e-16,
+      "serialized_readback_error": 5.682377955034955e-16
+    },
+    {
+      "k": 4,
+      "spin": 1,
+      "native_overlap_error": 6.453177159675028e-16,
+      "serialized_readback_error": 6.2139492319522265e-16
+    },
+    {
+      "k": 5,
+      "spin": 1,
+      "native_overlap_error": 5.509761405760127e-16,
+      "serialized_readback_error": 6.367167763562643e-16
+    },
+    {
+      "k": 6,
+      "spin": 1,
+      "native_overlap_error": 5.558049685633556e-16,
+      "serialized_readback_error": 5.499371395360927e-16
+    },
+    {
+      "k": 7,
+      "spin": 1,
+      "native_overlap_error": 5.960990477592167e-16,
+      "serialized_readback_error": 4.840469138387928e-16
+    },
+    {
+      "k": 8,
+      "spin": 1,
+      "native_overlap_error": 6.12040337055751e-16,
+      "serialized_readback_error": 4.1356786348271985e-16
+    },
+    {
+      "k": 9,
+      "spin": 2,
+      "native_overlap_error": 5.558049685633556e-16,
+      "serialized_readback_error": 8.441528768080324e-16
+    },
+    {
+      "k": 10,
+      "spin": 2,
+      "native_overlap_error": 4.478473165893525e-16,
+      "serialized_readback_error": 4.562190821776707e-16
+    },
+    {
+      "k": 11,
+      "spin": 2,
+      "native_overlap_error": 4.871362227941219e-16,
+      "serialized_readback_error": 7.893649756019315e-16
+    },
+    {
+      "k": 12,
+      "spin": 2,
+      "native_overlap_error": 4.335559509131367e-16,
+      "serialized_readback_error": 6.473657049138937e-16
+    },
+    {
+      "k": 13,
+      "spin": 2,
+      "native_overlap_error": 3.554447978966673e-16,
+      "serialized_readback_error": 3.4214094965713576e-16
+    },
+    {
+      "k": 14,
+      "spin": 2,
+      "native_overlap_error": 3.7486085894282653e-16,
+      "serialized_readback_error": 5.978733960281817e-16
+    },
+    {
+      "k": 15,
+      "spin": 2,
+      "native_overlap_error": 5.117875266520904e-16,
+      "serialized_readback_error": 6.237289866329941e-16
+    },
+    {
+      "k": 16,
+      "spin": 2,
+      "native_overlap_error": 5.978733960281817e-16,
+      "serialized_readback_error": 4.965068306494546e-16
+    }
+  ],
+  "source_reference_occupation_per_spin": {
+    "1": 0.5367863241370621,
+    "2": 0.536792226974085
+  },
+  "shared_lambda_conjugate": 1.073578551111147,
+  "meaning": "W is the PAW dual vector S0*chi0; no additional normalization applied",
+  "source_contains_other_Ru_d_field": true,
+  "new_zero_field_SCF_expected_equal": false,
+  "new_DFT": false
+}

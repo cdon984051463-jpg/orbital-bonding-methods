@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+work/
+/inputs/
+*.x
+*.o
+*.mod
+POTCAR
+WAVECAR
+CHGCAR
+*.save/
+atomic-templates/
+pseudo/
+.DS_Store
+Thumbs.db

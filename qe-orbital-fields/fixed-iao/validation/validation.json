@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "zero_energy",
+      "value": 1.9426806829869747e-09,
+      "tolerance": 1.3605693122993999e-05,
+      "unit": "eV",
+      "passed": true
+    },
+    {
+      "name": "zero_force",
+      "value": 2.571104311677175e-07,
+      "tolerance": 1e-05,
+      "unit": "eV/Angstrom",
+      "passed": true
+    },
+    {
+      "name": "HF_two_point",
+      "value": 0.0005447952825601843,
+      "tolerance": 0.02,
+      "unit": "meV",
+      "passed": true
+    },
+    {
+      "name": "HF_Simpson",
+      "value": 0.00016048982965505276,
+      "tolerance": 0.01,
+      "unit": "meV",
+      "passed": true
+    },
+    {
+      "name": "force_atom1_x",
+      "value": 7.506103043342094e-06,
+      "tolerance": 0.001,
+      "unit": "eV/Angstrom",
+      "passed": true
+    },
+    {
+      "name": "force_atom3_x",
+      "value": 9.148008256021356e-06,
+      "tolerance": 0.001,
+      "unit": "eV/Angstrom",
+      "passed": true
+    },
+    {
+      "name": "external_energy_bookkeeping",
+      "value": 0.0,
+      "tolerance": 1e-10,
+      "unit": "eV",
+      "passed": true
+    },
+    {
+      "name": "spin_occupation_sum",
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "unit": "electrons",
+      "passed": true
+    }
+  ],
+  "force_comparisons": [
+    {
+      "atom": 1,
+      "component": "x",
+      "force_FD_eV_A": -1.5757995975036465,
+      "raw_force_eV_A": -1.5758071036066899
+    },
+    {
+      "atom": 3,
+      "component": "x",
+      "force_FD_eV_A": 1.378524081701471,
+      "raw_force_eV_A": 1.378533229709727
+    }
+  ],
+  "scope": "Six-atom fixed-reference projector SCF and raw-force software validation only",
+  "relaxation_validated": false,
+  "Hess_physical_result": false
+}

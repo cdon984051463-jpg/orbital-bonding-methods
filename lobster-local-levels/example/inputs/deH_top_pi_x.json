@@ -1,0 +1,28 @@
+{
+  "hamilton": "../matrices/deH/hamiltonMatrices.lobster",
+  "overlap": "../matrices/deH/overlapMatrices.lobster",
+  "coefficients_lso2": "../matrices/deH/coefficientMatricesLSO2.lobster",
+  "eigenval": "../matrices/deH/EIGENVAL",
+  "lobsterout": "../matrices/deH/lobsterout",
+  "fermi_eV": 0.425446,
+  "occupation_factor": 2,
+  "basis": "LOBSTER 5.1.1 pbeVaspFit2015; Ru 5s 4d / O 2s 2p / H 1s",
+  "frame": "Original OH: z=Ru1 to O113, x=O113 to H115 perpendicular to z, y=z cross x; same frame for both states and bottom pair",
+  "source_validation": "Historical stage2v3_9546165/certification_9546169; native matrix checks rerun by the revised entry point",
+  "a": {
+    "orbitals": {
+      "Ru1_4d_xy": 0.012943710967024668,
+      "Ru1_4d_yz": -0.05816215915434789,
+      "Ru1_4d_z^2": -0.17691888844440956,
+      "Ru1_4d_xz": -0.9771810343231069,
+      "Ru1_4d_x^2-y^2": 0.1013240181779409
+    }
+  },
+  "b": {
+    "orbitals": {
+      "O113_2p_x": -0.9929513221121105,
+      "O113_2p_y": -0.05918652471826695,
+      "O113_2p_z": -0.10268703524586562
+    }
+  }
+}

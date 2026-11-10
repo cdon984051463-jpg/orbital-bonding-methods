@@ -1,0 +1,3 @@
+&iao_field
+ lambda_eV=0.2, projector_dir='./projectors'
+/

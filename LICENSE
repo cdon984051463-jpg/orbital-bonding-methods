@@ -1,0 +1,14 @@
+Copyright (c) 2026 Tangtao Chen, TU Berlin.
+
+Original research scripts and documentation retain their existing rights. No new
+reuse license is granted for components that did not previously declare one.
+Public availability of this repository does not itself grant an open-source license.
+
+The Quantum ESPRESSO-derived components under qe-orbital-fields/ retain their
+GPL-2.0-or-later notices. The complete GPL version 2 text is in
+qe-orbital-fields/LICENSE. Existing third-party notices take precedence for
+their respective components.
+
+The external VaspBandUnfolding/PyVaspWfc dependency is obtained from its upstream
+repository and is not redistributed here. VASP, LOBSTER, licensed PAW datasets,
+and pseudopotential files are not included.

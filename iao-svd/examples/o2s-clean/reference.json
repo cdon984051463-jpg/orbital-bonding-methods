@@ -1,0 +1,16 @@
+{
+  "source": "Archived clean O 2s+2p default-basis validation, 2026-09-08",
+  "singular_values": [
+    0.7215680428777571,
+    0.27899738938345364,
+    0.20848076473062122,
+    0.11176037128899641
+  ],
+  "squared_shares_percent": [
+    79.55638871869586,
+    11.893803487576102,
+    6.641290272105626,
+    1.908517521622424
+  ],
+  "scope": "Coefficient-space reference; field integration convergence is a separate question."
+}

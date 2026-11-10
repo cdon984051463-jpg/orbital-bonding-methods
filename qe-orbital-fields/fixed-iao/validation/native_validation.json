@@ -1,0 +1,90 @@
+{
+  "source": "metric_source/rc.save",
+  "method": "native QE calbec+s_psi",
+  "status": "NUMERICAL_GATES_PASS",
+  "per_k": [
+    {
+      "k": 1,
+      "spin": 1,
+      "occupied_gram_error": 5.904021001980446e-15
+    },
+    {
+      "k": 2,
+      "spin": 1,
+      "occupied_gram_error": 5.762818227446977e-15
+    },
+    {
+      "k": 3,
+      "spin": 1,
+      "occupied_gram_error": 8.406686097485898e-15
+    },
+    {
+      "k": 4,
+      "spin": 1,
+      "occupied_gram_error": 8.389140665324475e-15
+    },
+    {
+      "k": 5,
+      "spin": 1,
+      "occupied_gram_error": 4.806491062882793e-15
+    },
+    {
+      "k": 6,
+      "spin": 1,
+      "occupied_gram_error": 1.1490883727382667e-14
+    },
+    {
+      "k": 7,
+      "spin": 1,
+      "occupied_gram_error": 8.403070361537907e-15
+    },
+    {
+      "k": 8,
+      "spin": 1,
+      "occupied_gram_error": 5.263174182391228e-15
+    },
+    {
+      "k": 9,
+      "spin": 2,
+      "occupied_gram_error": 6.282325018549183e-15
+    },
+    {
+      "k": 10,
+      "spin": 2,
+      "occupied_gram_error": 5.6932387975525744e-15
+    },
+    {
+      "k": 11,
+      "spin": 2,
+      "occupied_gram_error": 9.411386636647104e-15
+    },
+    {
+      "k": 12,
+      "spin": 2,
+      "occupied_gram_error": 1.622625064369966e-14
+    },
+    {
+      "k": 13,
+      "spin": 2,
+      "occupied_gram_error": 8.390449136009753e-15
+    },
+    {
+      "k": 14,
+      "spin": 2,
+      "occupied_gram_error": 1.350396202972438e-14
+    },
+    {
+      "k": 15,
+      "spin": 2,
+      "occupied_gram_error": 3.2584834332004002e-15
+    },
+    {
+      "k": 16,
+      "spin": 2,
+      "occupied_gram_error": 6.529725998840434e-15
+    }
+  ],
+  "total_electrons": 55.99999976355076,
+  "source_electrons": 55.999999999977256,
+  "new_DFT": false
+}

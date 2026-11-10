@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this archived software version and the upstream methods used in your work."
+type: software
+title: "Orbital Bonding Methods: IAO-SVD, QE Orbital Fields, and LOBSTER Local Levels"
+version: 0.1.0
+date-released: 2026-11-10
+authors:
+  - family-names: Chen
+    given-names: Tangtao
+    affiliation: TU Berlin
+keywords:
+  - IAO
+  - SVD
+  - Quantum ESPRESSO
+  - LOBSTER
+  - electronic structure
