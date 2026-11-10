@@ -2,6 +2,8 @@
 
 **Tangtao Chen · TU Berlin**
 
+Version 0.1.0 is archived on Zenodo: [10.5281/zenodo.24119269](https://doi.org/10.5281/zenodo.24119269).
+
 Research software archive for three complementary workflows:
 
 | Directory | Purpose | Small example |
