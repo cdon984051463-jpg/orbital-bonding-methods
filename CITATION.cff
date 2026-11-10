@@ -3,6 +3,7 @@ message: "Please cite this archived software version and the upstream methods us
 type: software
 title: "Orbital Bonding Methods: IAO-SVD, QE Orbital Fields, and LOBSTER Local Levels"
 version: 0.1.0
+repository-code: "https://github.com/cdon984051463-jpg/orbital-bonding-methods"
 date-released: 2026-11-10
 authors:
   - family-names: Chen

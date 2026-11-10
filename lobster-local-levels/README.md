@@ -83,7 +83,7 @@ f 是显式核对过自旋因子的 KS 电子占据；本例使用原配置的 `
 
 ## 归档边界
 
-本目录随统一方法仓库归档，署名为 Tangtao Chen，单位 TU Berlin，许可范围见仓库根目录 LICENSE。目前尚未上传 GitHub、Zenodo 或 arXiv。本包不包含 LOBSTER／VASP 程序、POTCAR 或大波函数；使用上游软件须遵守各自许可并引用其方法论文。
+本目录随[统一方法仓库](https://github.com/cdon984051463-jpg/orbital-bonding-methods)归档，署名为 Tangtao Chen，单位 TU Berlin，许可范围见仓库根目录 LICENSE。Zenodo 与 arXiv 尚未发布。本包不包含 LOBSTER／VASP 程序、POTCAR 或大波函数；使用上游软件须遵守各自许可并引用其方法论文。
 
 - LOBSTER 方法基础：[Maintz et al., J. Comput. Chem. 2016](https://doi.org/10.1002/jcc.24300)。
 - 本包新增部分的定位：指定两轨道子空间、局部正交化、逐 k 能级与占据投影及其可复现图示流程。独创性需要相对于相关既有方法单独论证。
